@@ -7,5 +7,7 @@ tile.advancedenderstorage.name=Advanced Ender Storage
 
 config.endergenerator=Ender Generator
 config.enderstorage=Ender Storage
-
+config.acc.per_chocolate=RF per chocolate
+config.max_energy=Max Energy
+config.output=Max Output
 choco.gui.energy_stored=Stored Energy:
