@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GOG",
+    "OCO",
+    "COC"
+  ],
+  "key": {
+    "C": {
+      "item": "poweredbychoco:choco_core"
+    },
+    "O": {
+      "item": "choco:chocolate"
+    },
+	"G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "poweredbychoco:choco_capacitor",
+    "count": 1
+  }
+}

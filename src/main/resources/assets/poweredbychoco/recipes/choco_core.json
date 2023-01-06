@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "item": "choco:golden_chocolate"
+    },
+    "B": {
+      "item": "choco:enchanted_chocolate"
+    },
+    "C": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "poweredbychoco:choco_core",
+    "count": 1
+  }
+}
