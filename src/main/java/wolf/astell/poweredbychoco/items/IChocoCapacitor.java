@@ -1,10 +1,7 @@
 package wolf.astell.poweredbychoco.items;
 
-import java.util.List;
-import javax.annotation.Nullable;
-import net.minecraft.client.resources.I18n;
-import wolf.astell.poweredbychoco.ModConfig;
 import net.minecraft.block.Block;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
@@ -12,10 +9,14 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
+import wolf.astell.poweredbychoco.api.ModConfig;
 
-public class chocoCapacitorItem extends ItemBlock {
+import javax.annotation.Nullable;
+import java.util.List;
 
-	public chocoCapacitorItem(Block block) {
+public class IChocoCapacitor extends ItemBlock {
+
+	public IChocoCapacitor(Block block) {
 		super(block);
 		this.setCreativeTab(itemList.CreativeTab);
 	}

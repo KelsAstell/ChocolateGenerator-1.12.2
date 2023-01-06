@@ -1,11 +1,11 @@
 package wolf.astell.poweredbychoco.gui;
 
-import net.minecraft.util.text.TextComponentTranslation;
-import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.text.TextComponentTranslation;
+import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 
 public class GUIBackground extends GuiContainer {
 	private generatorTE te;

@@ -1,7 +1,7 @@
 package wolf.astell.poweredbychoco.energy;
 
+import net.minecraftforge.energy.IEnergyStorage;
 import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
-import net.minecraftforge.energy.*;
 
 public class generatorFE implements IEnergyStorage{
 	

@@ -1,11 +1,11 @@
 package wolf.astell.poweredbychoco.gui;
 
-import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 
 public class GUISlot extends Container {
 

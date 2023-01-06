@@ -1,9 +1,5 @@
 package wolf.astell.poweredbychoco.blocks;
 
-import java.util.HashMap;
-
-import wolf.astell.poweredbychoco.items.itemList;
-import wolf.astell.poweredbychoco.tile_entities.base.capacitorTE;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.state.IBlockState;
@@ -18,6 +14,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import wolf.astell.poweredbychoco.items.itemList;
+import wolf.astell.poweredbychoco.tile_entities.base.capacitorTE;
+
+import java.util.HashMap;
 
 public class chocoCapacitor extends Block implements ITileEntityProvider {
 

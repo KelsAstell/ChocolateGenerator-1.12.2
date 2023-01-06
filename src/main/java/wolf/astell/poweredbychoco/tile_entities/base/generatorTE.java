@@ -16,7 +16,7 @@ import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.energy.IEnergyStorage;
 import wolf.astell.choco.init.ItemList;
-import wolf.astell.poweredbychoco.ModConfig;
+import wolf.astell.poweredbychoco.api.ModConfig;
 import wolf.astell.poweredbychoco.energy.generatorFE;
 import wolf.astell.poweredbychoco.libs.libModInfo;
 

@@ -1,13 +1,13 @@
 package wolf.astell.poweredbychoco.handler;
 
-import wolf.astell.poweredbychoco.gui.GUISlot;
-import wolf.astell.poweredbychoco.libs.libModInfo;
-import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
-import wolf.astell.poweredbychoco.gui.GUIBackground;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.fml.common.network.IGuiHandler;
+import wolf.astell.poweredbychoco.gui.GUIBackground;
+import wolf.astell.poweredbychoco.gui.GUISlot;
+import wolf.astell.poweredbychoco.libs.libModInfo;
+import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 
 public class GUIHandler implements IGuiHandler {
 

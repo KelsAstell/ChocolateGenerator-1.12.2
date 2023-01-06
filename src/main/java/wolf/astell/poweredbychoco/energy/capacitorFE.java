@@ -1,8 +1,8 @@
 package wolf.astell.poweredbychoco.energy;
 
-import wolf.astell.poweredbychoco.tile_entities.base.capacitorTE;
 import net.minecraft.util.EnumFacing;
-import net.minecraftforge.energy.*;
+import net.minecraftforge.energy.IEnergyStorage;
+import wolf.astell.poweredbychoco.tile_entities.base.capacitorTE;
 
 public class capacitorFE implements IEnergyStorage{
 	

@@ -9,7 +9,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.energy.IEnergyStorage;
-import wolf.astell.poweredbychoco.ModConfig;
+import wolf.astell.poweredbychoco.api.ModConfig;
 import wolf.astell.poweredbychoco.energy.capacitorFE;
 import wolf.astell.poweredbychoco.libs.libModInfo;
 

@@ -12,7 +12,7 @@ import wolf.astell.poweredbychoco.handler.InitHandler;
 import wolf.astell.poweredbychoco.libs.libModInfo;
 import wolf.astell.poweredbychoco.proxy.commonProxy;
 
-@Mod(modid = libModInfo.MODID, name = libModInfo.MODNAME, version = libModInfo.VERSION, dependencies = libModInfo.DEPENDENCIES)
+@Mod(modid = "poweredbychocolate", name = "Powered by Choco", version = "1.0.0", dependencies = "required-after:choco@[1.0.0,)")
 public class Main {
 	@Instance
 	public static Main instance;

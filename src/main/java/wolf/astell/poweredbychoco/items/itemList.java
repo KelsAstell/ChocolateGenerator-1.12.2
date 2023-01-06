@@ -19,7 +19,7 @@ public class itemList {
 	    }
 	};
 	public static void createItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().register(chocoCore = new chocoCore(libModInfo.CHOCO_CORE));
+		event.getRegistry().register(chocoCore = new IChocoCore(libModInfo.CHOCO_CORE));
 		event.getRegistry().registerAll(blockManager.itemChocoGenerator, blockManager.itemChocoCapacitor);
     }
 	

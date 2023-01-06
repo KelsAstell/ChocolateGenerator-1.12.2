@@ -1,10 +1,5 @@
 package wolf.astell.poweredbychoco.blocks;
 
-import wolf.astell.poweredbychoco.Main;
-import wolf.astell.poweredbychoco.items.itemList;
-import wolf.astell.poweredbychoco.libs.libModInfo;
-import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
-import wolf.astell.poweredbychoco.handler.GUIHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.state.IBlockState;
@@ -17,6 +12,10 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import wolf.astell.poweredbychoco.Main;
+import wolf.astell.poweredbychoco.items.itemList;
+import wolf.astell.poweredbychoco.libs.libModInfo;
+import wolf.astell.poweredbychoco.tile_entities.base.generatorTE;
 
 public class chocoGenerator extends Block implements ITileEntityProvider {
 	public chocoGenerator(String name) {

@@ -1,11 +1,16 @@
-[{
-  "modid": "poweredbychoco",
-  "name": "Powered by Choco",
-  "description": "Another chocolate mod! Let's create Choco Generator and Capacitor.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "authorList": ["Kels_Astell"],
-  "url": "",
-  "logoFile": "assets/poweredbychocolate/textures/logo.png",
-  "dependencies": [ "" ]
-}]
+[
+  {
+    "modid": "poweredbychoco",
+    "name": "Powered By Choco",
+    "description": "A simple chocolate mod. Powered by Chocolate and Love.",
+    "version": "1.0.0",
+    "mcversion": "1.12.2",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Kels_Astell"],
+    "credits": "The FML Team",
+    "logoFile": "assets/poweredbychoco/textures/logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

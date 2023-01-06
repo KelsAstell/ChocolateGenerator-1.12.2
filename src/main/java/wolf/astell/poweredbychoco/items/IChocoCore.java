@@ -2,8 +2,8 @@ package wolf.astell.poweredbychoco.items;
 
 import net.minecraft.item.Item;
 
-public class chocoCore extends Item {
-	public chocoCore(String name) {
+public class IChocoCore extends Item {
+	public IChocoCore(String name) {
 		super();
 		this.setUnlocalizedName(name);
 		this.setRegistryName(name);

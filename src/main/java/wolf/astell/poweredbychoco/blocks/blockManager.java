@@ -8,7 +8,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-import wolf.astell.poweredbychoco.items.chocoCapacitorItem;
+import wolf.astell.poweredbychoco.items.IChocoCapacitor;
 import wolf.astell.poweredbychoco.libs.libModInfo;
 import wolf.astell.poweredbychoco.tile_entities.chocoCapacitorTE;
 import wolf.astell.poweredbychoco.tile_entities.chocoGeneratorTE;
@@ -27,6 +27,6 @@ public class blockManager {
 		GameRegistry.registerTileEntity(chocoGeneratorTE.class, new ResourceLocation(libModInfo.MODID + ":generator_tile_entity"));
 		GameRegistry.registerTileEntity(chocoCapacitorTE.class, new ResourceLocation(libModInfo.MODID + ":storage_tile_entity"));
 		itemChocoGenerator = new ItemBlock(chocoGenerator).setRegistryName(libModInfo.CHOCO_GENERATOR);
-		itemChocoCapacitor = new chocoCapacitorItem(chocoStorage).setRegistryName(libModInfo.CHOCO_CAPACITOR);
+		itemChocoCapacitor = new IChocoCapacitor(chocoStorage).setRegistryName(libModInfo.CHOCO_CAPACITOR);
 	}
 }
