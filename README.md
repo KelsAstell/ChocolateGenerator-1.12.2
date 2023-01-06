@@ -8,7 +8,7 @@
 
 English / [中文](https://github.com/KelsAstell/ChocolateGenerator-1.12.2/blob/master/README.md)
 
-A minecraft mod powered by chocolate and love.
+A mod originally from Expotential Power.
 
 Notice: This mod is under testing and evaluation. May not be fully compatible with multiplayer.
 

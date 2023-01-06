@@ -1,6 +1,0 @@
-item.choco_core.name=Choco Core
-tile.choco_generator.name=Choco Generator
-itemGroup.poweredbychoco=Powered by Choco
-tile.choco_capacitor.name=Choco Capacitor
-choco.gui.current_energy=Current Energy:
-choco.gui.energy_stored=Current Energy Stored:

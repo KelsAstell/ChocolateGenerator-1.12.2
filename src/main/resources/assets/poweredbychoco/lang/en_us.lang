@@ -1,0 +1,11 @@
+item.endercell.name=Ender Cell
+tile.endergenerator.name=Ender Generator
+tile.advancedendergenerator.name=Advanced Ender Generator
+itemGroup.poweredbychoco=Powered By Choco
+tile.enderstorage.name=Ender Storage
+tile.advancedenderstorage.name=Advanced Ender Storage
+
+config.endergenerator=Ender Generator
+config.enderstorage=Ender Storage
+
+choco.gui.energy_stored=Stored Energy:

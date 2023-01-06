@@ -1,0 +1,63 @@
+package io.github.mosadie.ExponentialPower;
+
+import net.minecraftforge.common.config.Config;
+import net.minecraftforge.common.config.Config.Comment;
+import net.minecraftforge.common.config.Config.Name;
+import net.minecraftforge.common.config.Config.RangeDouble;
+
+@Config(modid = ExponentialPower.MODID, category = "")
+public class ConfigHandler {
+
+	@Config.LangKey("config.endergenerator")
+	public static ConfigEnderGenerator ender_generator = new ConfigEnderGenerator();
+
+
+	@Config.LangKey("config.enderstorage")
+	public static ConfigEnderStorage ender_storage = new ConfigEnderStorage();
+
+	public static class ConfigEnderGenerator {
+
+		public static class AdvancedGenerator {
+			@Name("Accumulation")
+			@Comment({"Set accumulation per chocolate."})
+			public int ACCUMULATION = 5;
+		}
+
+		public static class RegularGenerator {
+			@Name("Accumulation")
+			@Comment({"Set accumulation per chocolate."})
+			public int ACCUMULATION = 2;
+
+			@Name("Output")
+			@Comment({"Set max output."})
+			@RangeDouble(min = 1, max = (double)Long.MAX_VALUE)
+			public double MAX_OUTPUT = Long.MAX_VALUE;
+
+		}
+
+		public AdvancedGenerator Advanced = new AdvancedGenerator();
+		public RegularGenerator Regular = new RegularGenerator();
+	}
+
+	public static class ConfigEnderStorage {
+
+		public static class RegularStorage {
+			@Name("Max Energy")
+			@Comment({"The maximum amount of power that can be stored in a single Ender Storage block."})
+			@RangeDouble(min = 1, max = (double)Long.MAX_VALUE)
+			@Config.RequiresMcRestart
+			public double MAXENERGY = Long.MAX_VALUE;
+		}
+
+		public static class AdvancedStorage {
+			@Name("Max Energy")
+			@Comment({"The maximum amount of power that can be stored in a single Advanced Ender Storage block."})
+			@RangeDouble(min = 1, max = Double.MAX_VALUE)
+			@Config.RequiresMcRestart
+			public double MAXENERGY = Double.MAX_VALUE;
+		}
+
+		public AdvancedStorage Advanced = new AdvancedStorage();
+		public RegularStorage Regular = new RegularStorage();
+	}
+}
