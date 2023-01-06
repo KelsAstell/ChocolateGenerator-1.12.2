@@ -6,5 +6,6 @@
   "mcversion": "${mcversion}",
   "authorList": ["Kels_Astell"],
   "url": "",
+  "logoFile": "assets/poweredbychocolate/textures/logo.png",
   "dependencies": [ "" ]
 }]
