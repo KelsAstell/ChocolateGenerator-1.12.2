@@ -18,17 +18,17 @@ public class ConfigHandler {
 	public static class ConfigEnderGenerator {
 
 		public static class AdvancedGenerator {
-			@Name("Accumulation")
+			@Config.LangKey("config.acc.per_chocolate")
 			@Comment({"Set accumulation per chocolate."})
 			public int ACCUMULATION = 5;
 		}
 
 		public static class RegularGenerator {
-			@Name("Accumulation")
+			@Config.LangKey("config.acc.per_chocolate")
 			@Comment({"Set accumulation per chocolate."})
 			public int ACCUMULATION = 2;
 
-			@Name("Output")
+			@Config.LangKey("config.output")
 			@Comment({"Set max output."})
 			@RangeDouble(min = 1, max = (double)Long.MAX_VALUE)
 			public double MAX_OUTPUT = Long.MAX_VALUE;
@@ -42,7 +42,7 @@ public class ConfigHandler {
 	public static class ConfigEnderStorage {
 
 		public static class RegularStorage {
-			@Name("Max Energy")
+			@Config.LangKey("config.max_energy")
 			@Comment({"The maximum amount of power that can be stored in a single Ender Storage block."})
 			@RangeDouble(min = 1, max = (double)Long.MAX_VALUE)
 			@Config.RequiresMcRestart
@@ -50,7 +50,7 @@ public class ConfigHandler {
 		}
 
 		public static class AdvancedStorage {
-			@Name("Max Energy")
+			@Config.LangKey("config.max_energy")
 			@Comment({"The maximum amount of power that can be stored in a single Advanced Ender Storage block."})
 			@RangeDouble(min = 1, max = Double.MAX_VALUE)
 			@Config.RequiresMcRestart
