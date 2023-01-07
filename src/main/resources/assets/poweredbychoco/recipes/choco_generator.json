@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IGI",
+    "GFG",
+    "ITI"
+  ],
+  "key": {
+    "F": {
+      "item": "choco:flight_chocolate",
+      "data": 0
+    },
+    "G": {
+      "item": "choco:golden_chocolate",
+      "data": 0
+    },
+    "T": {
+      "item": "minecraft:TNT",
+      "data": 0
+    },
+	"I": {
+      "item": "minecraft:iron_ingot",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "poweredbychoco:choco_generator",
+    "count": 1,
+    "data": 0
+  }
+}

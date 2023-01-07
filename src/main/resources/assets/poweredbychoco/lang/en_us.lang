@@ -1,13 +1,15 @@
-item.endercell.name=Ender Cell
-tile.endergenerator.name=Ender Generator
-tile.advancedendergenerator.name=Advanced Ender Generator
-itemGroup.poweredbychoco=Powered By Choco
-tile.enderstorage.name=Ender Storage
-tile.advancedenderstorage.name=Advanced Ender Storage
+itemGroup.PoweredbyChoco=Powered By Choco
+tile.choco_generator.name=Choco Annihilation Oven
+tile.enforced_choco_generator.name=§eEnforced Choco Annihilation Oven
+tile.choco_capacitor.name=Choco Capacitor
 
-config.endergenerator=Ender Generator
-config.enderstorage=Ender Storage
-config.acc.per_chocolate=RF per chocolate
-config.max_energy=Max Energy
-config.output=Max Output
+choco.GeneratorConf=Choco Generator Settings
+config.generator.max_output.name=Generator Output Limit
+config.generator.basic_accumulate.name=Efficiency per chocolate for Choco Annihilation Oven
+config.generator.enforced_accumulate.name=Efficiency per chocolate for Enforced Choco Annihilation Oven
+
+choco.CapacitorConf=Choco Capacitor Settings
+config.capacitor.max_storage.name=Max storage of the Capacitor
+
 choco.gui.energy_stored=Stored Energy:
+choco.gui.current_efficiency=Current Efficiency:

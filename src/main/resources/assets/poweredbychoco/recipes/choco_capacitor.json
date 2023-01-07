@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "GFG",
+    "RRR"
+  ],
+  "key": {
+    "F": {
+      "item": "choco:flight_chocolate",
+      "data": 0
+    },
+    "G": {
+      "item": "choco:golden_chocolate",
+      "data": 0
+    },
+	"R": {
+      "item": "minecraft:redstone_block",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "poweredbychoco:choco_capacitor",
+    "count": 1,
+    "data": 0
+  }
+}

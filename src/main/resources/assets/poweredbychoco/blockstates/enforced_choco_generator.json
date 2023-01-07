@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": { "model": "poweredbychoco:enforced_choco_generator" }
+  }
+}
