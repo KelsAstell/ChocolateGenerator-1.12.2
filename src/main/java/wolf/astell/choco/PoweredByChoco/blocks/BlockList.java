@@ -32,9 +32,9 @@ public class BlockList {
 		event.getRegistry().register(chocoGenerator.setRegistryName("choco_generator"));
 		event.getRegistry().register(enforcedChocoGenerator.setRegistryName("enforced_choco_generator"));
 		event.getRegistry().register(chocoCapacitor.setRegistryName("choco_capacitor"));
-		GameRegistry.registerTileEntity(ChocoGeneratorTE.class, new ResourceLocation(Main.MODID + ":choco_generator_tile_entity"));
-		GameRegistry.registerTileEntity(EnforcedChocoGeneratorTE.class, new ResourceLocation(Main.MODID + ":enforced_choco_generator_tile_entity"));
-		GameRegistry.registerTileEntity(ChocoStorageTE.class, new ResourceLocation(Main.MODID + ":choco_capacitor_tile_entity"));
+		GameRegistry.registerTileEntity(ChocoGeneratorTE.class, new ResourceLocation("poweredbychoco" + ":choco_generator_tile_entity"));
+		GameRegistry.registerTileEntity(EnforcedChocoGeneratorTE.class, new ResourceLocation("poweredbychoco" + ":enforced_choco_generator_tile_entity"));
+		GameRegistry.registerTileEntity(ChocoStorageTE.class, new ResourceLocation("poweredbychoco" + ":choco_capacitor_tile_entity"));
 		itemChocoGenerator = new ItemBlock(chocoGenerator).setRegistryName(chocoGenerator.getRegistryName());
 		itemEnforcedChocoGenerator = new ItemBlock(enforcedChocoGenerator).setRegistryName(enforcedChocoGenerator.getRegistryName());
 		itemChocoCapacitor = new IChocoStorage(chocoCapacitor, StorageTier.REGULAR).setRegistryName(chocoCapacitor.getRegistryName());

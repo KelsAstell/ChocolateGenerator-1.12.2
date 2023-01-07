@@ -59,7 +59,7 @@ public class GeneratorTE extends TileEntity implements ITickable, IInventory, IC
 
 	@Override
 	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
-		ResourceLocation resourcelocation = new ResourceLocation(Main.MODID + (tier == GeneratorTier.REGULAR ? ":choco_generator_tile_entity" : ":enforced_choco_generator_tile_entity"));
+		ResourceLocation resourcelocation = new ResourceLocation("poweredbychoco" + (tier == GeneratorTier.REGULAR ? ":choco_generator_tile_entity" : ":enforced_choco_generator_tile_entity"));
 		nbt.setString("id", resourcelocation.toString());
 		nbt.setInteger("x", this.pos.getX());
 		nbt.setInteger("y", this.pos.getY());

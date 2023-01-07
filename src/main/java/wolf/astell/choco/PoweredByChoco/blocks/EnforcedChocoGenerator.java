@@ -1,5 +1,6 @@
 package wolf.astell.choco.PoweredByChoco.blocks;
 
+import net.minecraft.item.Item;
 import wolf.astell.choco.PoweredByChoco.items.ItemList;
 import wolf.astell.choco.PoweredByChoco.Main;
 import wolf.astell.choco.PoweredByChoco.network.GUIHandler;

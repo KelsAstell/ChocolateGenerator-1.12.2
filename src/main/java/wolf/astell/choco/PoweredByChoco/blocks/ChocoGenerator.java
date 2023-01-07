@@ -1,6 +1,6 @@
 package wolf.astell.choco.PoweredByChoco.blocks;
 
-import wolf.astell.choco.PoweredByChoco.items.ItemList;
+import net.minecraft.item.Item;
 import wolf.astell.choco.PoweredByChoco.Main;
 import wolf.astell.choco.PoweredByChoco.network.GUIHandler;
 import wolf.astell.choco.PoweredByChoco.tile.base.GeneratorTE;
@@ -16,6 +16,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import wolf.astell.choco.PoweredByChoco.items.ItemList;
+
 
 public class ChocoGenerator extends Block implements ITileEntityProvider {
 	public ChocoGenerator() {
@@ -25,6 +27,9 @@ public class ChocoGenerator extends Block implements ITileEntityProvider {
 		this.setHardness(2.5F);
 		this.setResistance(15f);
 		this.hasTileEntity = true;
+
+
+
     }
 
     @Override

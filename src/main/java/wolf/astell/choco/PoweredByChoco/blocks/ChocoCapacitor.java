@@ -2,6 +2,7 @@ package wolf.astell.choco.PoweredByChoco.blocks;
 
 import java.util.HashMap;
 
+import net.minecraft.item.Item;
 import wolf.astell.choco.PoweredByChoco.Main;
 import wolf.astell.choco.PoweredByChoco.items.ItemList;
 import wolf.astell.choco.PoweredByChoco.tile.base.StorageTE;
@@ -31,6 +32,7 @@ public class ChocoCapacitor extends Block implements ITileEntityProvider {
 		this.setHardness(2.5F);
 		this.setResistance(15f);
 		this.hasTileEntity = true;
+
 
 		tmp_energy_map = new HashMap<String, Double>(); //Key Syntax: {X}{Y}{Z}
 	}

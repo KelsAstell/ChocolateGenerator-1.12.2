@@ -12,14 +12,14 @@ import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Config(modid = Main.MODID, category = "")
+@Config(modid = "poweredbychoco", category = "")
 public class ModConfig {
-    @Mod.EventBusSubscriber(modid = Main.MODID)
+    @Mod.EventBusSubscriber(modid = "poweredbychoco")
     public static class ConfigSyncHandler {
         @SubscribeEvent
         public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-            if (event.getModID().equals(Main.MODID)) {
-                ConfigManager.sync(Main.MODID, Config.Type.INSTANCE);
+            if (event.getModID().equals("poweredbychoco")) {
+                ConfigManager.sync("poweredbychoco", Config.Type.INSTANCE);
             }
         }
     }

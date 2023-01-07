@@ -40,7 +40,7 @@ public class StorageTE extends TileEntity implements ITickable {
 
 	@Override
 	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
-		ResourceLocation resourcelocation = new ResourceLocation(Main.MODID + (":choco_capacitor_tile_entity"));
+		ResourceLocation resourcelocation = new ResourceLocation("poweredbychoco" + (":choco_capacitor_tile_entity"));
 		nbt.setString("id", resourcelocation.toString());
 		nbt.setInteger("x", this.pos.getX());
 		nbt.setInteger("y", this.pos.getY());

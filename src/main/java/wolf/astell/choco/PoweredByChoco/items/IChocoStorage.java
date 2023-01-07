@@ -23,6 +23,7 @@ public class IChocoStorage extends ItemBlock {
 		super(block);
 		this.tier = tier;
 		this.setCreativeTab(Main.PoweredbyChoco);
+		this.setContainerItem(this);
 	}
 
 	private final StorageTE.StorageTier tier;
