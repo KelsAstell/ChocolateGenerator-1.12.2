@@ -1,12 +1,10 @@
 itemGroup.PoweredbyChoco=可能发电机
 tile.choco_generator.name=可可质能转换机
-tile.enforced_choco_generator.name=§e增强型可可质能转换机
 tile.choco_capacitor.name=生巧电容库
 
 choco.GeneratorConf=可可质能转换机设定
 config.generator.max_output.name=最大发电量
 config.generator.basic_accumulate.name=对于可可质能转换机, 每块巧克力增加多少RF
-config.generator.enforced_accumulate.name=对于增强型可可质能转换机, 每块巧克力增加多少RF
 
 choco.CapacitorConf=生巧电容库设定
 config.capacitor.max_storage.name=最大储电量

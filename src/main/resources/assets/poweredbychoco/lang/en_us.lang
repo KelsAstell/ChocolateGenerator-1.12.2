@@ -1,12 +1,10 @@
 itemGroup.PoweredbyChoco=Powered By Choco
 tile.choco_generator.name=Choco Annihilation Oven
-tile.enforced_choco_generator.name=§eEnforced Choco Annihilation Oven
 tile.choco_capacitor.name=Choco Capacitor
 
 choco.GeneratorConf=Choco Generator Settings
 config.generator.max_output.name=Generator Output Limit
 config.generator.basic_accumulate.name=Efficiency per chocolate for Choco Annihilation Oven
-config.generator.enforced_accumulate.name=Efficiency per chocolate for Enforced Choco Annihilation Oven
 
 choco.CapacitorConf=Choco Capacitor Settings
 config.capacitor.max_storage.name=Max storage of the Capacitor

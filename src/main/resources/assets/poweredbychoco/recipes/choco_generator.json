@@ -1,25 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "IGI",
-    "GFG",
-    "ITI"
+    "IOI",
+    "OCO",
+    "IOI"
   ],
   "key": {
-    "F": {
-      "item": "choco:flight_chocolate",
+    "C": {
+      "item": "poweredbychoco:endercell",
       "data": 0
     },
-    "G": {
-      "item": "choco:golden_chocolate",
-      "data": 0
-    },
-    "T": {
-      "item": "minecraft:TNT",
+    "O": {
+      "item": "minecraft:obsidian",
       "data": 0
     },
 	"I": {
-      "item": "minecraft:iron_ingot",
+      "item": "minecraft:iron_block",
       "data": 0
     }
   },

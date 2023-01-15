@@ -4,7 +4,7 @@ So let's build something awesome from this!
 Author: Kels_Astell
 GitHub: https://github.com/KelsAstell
 */
-package wolf.astell.choco.PoweredByChoco;
+package io.github.mosadie.ExponentialPower;
 
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
@@ -39,10 +39,6 @@ public class ModConfig {
         @Config.RangeInt(min = 0)
         public int BASIC_ACCUMULATE = 2;
 
-        @Config.LangKey("config.generator.enforced_accumulate.name")
-        @Config.Comment("Efficiency per chocolate for Enforced Choco Annihilation Oven, default 5")
-        @Config.RangeInt(min = 0)
-        public int ENFORCED_ACCUMULATE = 5;
     }
     @Config.LangKey("choco.CapacitorConf")
     @Config.Comment("Choco Capacitor Settings")

@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RRR",
-    "GFG",
-    "RRR"
+    "DOD",
+    "OCO",
+    "DOD"
   ],
   "key": {
-    "F": {
-      "item": "choco:flight_chocolate",
+    "C": {
+      "item": "poweredbychoco:endercell",
       "data": 0
     },
-    "G": {
-      "item": "choco:golden_chocolate",
+    "O": {
+      "item": "minecraft:obsidian",
       "data": 0
     },
-	"R": {
-      "item": "minecraft:redstone_block",
+	"D": {
+      "item": "minecraft:diamond_block",
       "data": 0
     }
   },
