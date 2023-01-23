@@ -1,6 +1,5 @@
 package io.github.mosadie.ExponentialPower.TileEntitys.BaseClasses;
 
-import io.github.mosadie.ExponentialPower.ExponentialPower;
 import io.github.mosadie.ExponentialPower.ModConfig;
 import io.github.mosadie.ExponentialPower.energy.storage.ForgeEnergyConnection;
 import net.minecraft.nbt.NBTTagCompound;
@@ -42,7 +41,7 @@ public class StorageTE extends TileEntity implements ITickable {
 	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 
 		//super.writeToNBT recreated and modified here.
-		ResourceLocation resourcelocation = new ResourceLocation(ExponentialPower.MODID + (tier == StorageTier.REGULAR ? ":choco_capacitor_tile_entity" : ":advancedchoco_capacitor_tile_entity"));
+		ResourceLocation resourcelocation = new ResourceLocation("poweredbychoco:choco_capacitor_tile_entity");
 		nbt.setString("id", resourcelocation.toString());
 		nbt.setInteger("x", this.pos.getX());
 		nbt.setInteger("y", this.pos.getY());

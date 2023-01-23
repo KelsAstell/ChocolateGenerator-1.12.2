@@ -12,7 +12,7 @@ import wolf.astell.choco.init.ItemList;
 
 public class ItemManager {
 	
-	public static final CreativeTabs CreativeTab = new CreativeTabs("PoweredbyChoco") {
+	public static final CreativeTabs CreativeTab = new CreativeTabs("PoweredByChoco") {
 	    @Override public ItemStack getTabIconItem() {
 	        return new ItemStack(ItemList.flightChocolate);
 	    }
@@ -22,7 +22,7 @@ public class ItemManager {
     }
 	
 	public static void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(BlockManager.itemChocoGenerator, 0, new ModelResourceLocation("choco_generator", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(BlockManager.itemChocoCapacitor, 0, new ModelResourceLocation("choco_capacitor", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(BlockManager.itemChocoGenerator, 0, new ModelResourceLocation("poweredbychoco:choco_generator", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(BlockManager.itemChocoCapacitor, 0, new ModelResourceLocation("poweredbychoco:choco_capacitor", "inventory"));
 	}
 }

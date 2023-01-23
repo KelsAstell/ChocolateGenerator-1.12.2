@@ -1,6 +1,5 @@
 package io.github.mosadie.ExponentialPower.TileEntitys.BaseClasses;
 
-import io.github.mosadie.ExponentialPower.ExponentialPower;
 import io.github.mosadie.ExponentialPower.ModConfig;
 import io.github.mosadie.ExponentialPower.energy.generator.ForgeEnergyConnection;
 import net.minecraft.entity.player.EntityPlayer;
@@ -58,7 +57,7 @@ public class GeneratorTE extends TileEntity implements ITickable, IInventory, IC
 	@Override
 	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 
-		ResourceLocation resourcelocation = new ResourceLocation(ExponentialPower.MODID + (tier == GeneratorTier.REGULAR ? ":choco_generator_tile_entity" : ":advancedchoco_generator_tile_entity"));
+		ResourceLocation resourcelocation = new ResourceLocation("poweredbychoco:choco_generator_tile_entity");
 		nbt.setString("id", resourcelocation.toString());
 		nbt.setInteger("x", this.pos.getX());
 		nbt.setInteger("y", this.pos.getY());
@@ -76,6 +75,7 @@ public class GeneratorTE extends TileEntity implements ITickable, IInventory, IC
 			}
 		}
 		nbt.setTag("Items", list);
+		nbt.setDouble("currentOutput", currentOutput);
 
 		if (this.hasCustomName()) {
 			nbt.setString("CustomName", this.getCustomName());
@@ -95,6 +95,7 @@ public class GeneratorTE extends TileEntity implements ITickable, IInventory, IC
 			int slot = stackTag.getByte("Slot") & 255;
 			this.setInventorySlotContents(slot, new ItemStack(stackTag));
 		}
+		currentOutput = nbt.getDouble("currentOutput");
 
 		if (nbt.hasKey("CustomName", 8)) {
 			this.setCustomName(nbt.getString("CustomName"));
@@ -112,8 +113,9 @@ public class GeneratorTE extends TileEntity implements ITickable, IInventory, IC
 			if (currentOutput == 0) currentOutput = 1;
 		}
 		else{
-			if (currentOutput >0){
+			if (currentOutput > 0 && world.getWorldTime() % 10 == 0){
 				currentOutput --;
+				energy = currentOutput;
 			}
 		}
 		handleSendingEnergy();

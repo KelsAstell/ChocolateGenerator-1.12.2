@@ -28,7 +28,7 @@ public class BlockManager {
 		event.getRegistry().register(chocoCapacitor.setRegistryName("choco_capacitor"));
 		GameRegistry.registerTileEntity(EnderGeneratorTE.class, new ResourceLocation("poweredbychoco:choco_generator_tile_entity"));
 		GameRegistry.registerTileEntity(EnderStorageTE.class, new ResourceLocation("poweredbychoco:choco_capacitor_tile_entity"));
-		itemChocoGenerator = new ItemBlock(chocoGenerator).setRegistryName("choco_generator");
-		itemChocoCapacitor = new EnderStorageItem(chocoCapacitor, StorageTier.REGULAR).setRegistryName("choco_capacitor");
+		itemChocoGenerator = new ItemBlock(chocoGenerator).setRegistryName("choco_generator").setUnlocalizedName("poweredbychoco:choco_generator");
+		itemChocoCapacitor = new EnderStorageItem(chocoCapacitor, StorageTier.REGULAR).setRegistryName("choco_capacitor").setUnlocalizedName("poweredbychoco:choco_capacitor");
 	}
 }
